@@ -1,0 +1,6 @@
+#!/bin/sh
+
+g++ chen_calc.cpp -lmpfr -lgmp -o chen_calc
+g++ chen_plot_image.cpp -lmpfr -lgmp -o chen_plot_image
+g++ chen_plot_animation.cpp -lmpfr -lgmp -o chen_plot_animation
+g++ chen_poisson-stable.cpp -lmpfr -lgmp -o chen_poisson-stable

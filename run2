@@ -1,0 +1,4 @@
+#!/bin/sh
+
+./chen_plot_animation < 2.txt
+gnuplot anim_gnuplot.txt

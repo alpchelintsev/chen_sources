@@ -1,0 +1,4 @@
+#!/bin/sh
+
+./chen_plot_image < 1.txt
+gnuplot image_gnuplot.txt
